@@ -1,0 +1,50 @@
+!PrefabAsset
+Id: ae0ddd9e-28e2-4a1f-9282-2e5cc27b8232
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 0c3d243d-14c5-459b-9233-40ee0b1c0432
+    Parts:
+        -   Entity:
+                Id: 0c3d243d-14c5-459b-9233-40ee0b1c0432
+                Name: RemotePlayer
+                Components:
+                    b296752080481e41b569d385767428ce: !TransformComponent
+                        Id: d8def1e2-0317-4cf6-83de-388d479303a7
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    b978a0332590234b9f3a3537f50e75ae: !CharacterComponent
+                        Id: b2278f20-f71e-47a1-bfb7-83e740f0ec99
+                        CollisionGroup: KinematicFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        FallSpeed: 10.0
+                        MaxSlope: {Radians: 0.7853982}
+                        JumpSpeed: 13.0
+                        Gravity: {X: 0.0, Y: -40.0, Z: 0.0}
+                        ColliderShapes:
+                            56a5239435c0e54188f913fd5d2f5dee: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.95, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    e2612809a05738939cba935d7083a9e8: !MultiplayerExample.Network.NetworkEntityComponent,MultiplayerExample.Game
+                        Id: fd9ade73-6019-4cf0-ac03-308c4e0569de
+                        OwnerType: Player
+                        IsLocalEntity: false
+                    8f9cc7e441b2d4945308c433a06e94d7: !MultiplayerExample.Network.NetworkPlayerComponent,MultiplayerExample.Game
+                        Id: b7a37707-690a-4be2-8461-dd4fd21a4871
+                    cb84bfc3becb1cce0e09a3fb5f7080a0: !MultiplayerExample.Network.SnapshotStores.InputSnapshotsComponent,MultiplayerExample.Game
+                        Id: fd94176d-c37b-4480-8ea4-24742891159f
+                        Camera: null
+                    07b3f3537ced82e9f09c6326f895fda6: !MultiplayerExample.Network.SnapshotStores.MovementSnapshotsComponent,MultiplayerExample.Game
+                        Id: 7a59e239-cd40-4f39-9cb5-7a94e6930bba
+                        MaxRunSpeed: 8.5
+                        JumpReactionThreshold: 0.15

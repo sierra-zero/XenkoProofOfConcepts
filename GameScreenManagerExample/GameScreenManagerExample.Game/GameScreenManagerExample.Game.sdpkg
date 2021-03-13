@@ -1,0 +1,24 @@
+!Package
+SerializedVersion: {Assets: 3.1.0.0}
+Meta:
+    Name: GameScreenManagerExample.Game
+    Version: 1.0.0
+    Authors: []
+    Owners: []
+    RootNamespace: GameScreenManagerExample
+    Dependencies: null
+AssetFolders:
+    -   Path: !dir ../Assets
+    -   Path: !dir Effects
+ResourceFolders: []
+OutputGroupDirectories: {}
+ExplicitFolders: []
+Bundles: []
+TemplateFolders: []
+RootAssets:
+    - 099c534d-2db6-403c-b193-90dee3d32a45:Scenes/InGame
+    - 3b98d371-2e99-470c-97f3-450b8b5340a1:Scenes/SplashScreen
+    - 4dcae764-6202-44a7-a3cc-937f9dc26b2e:Scenes/TitleScreen
+    - 56e8c2a3-e57e-4aa2-babd-3dd91b39ca9b:UI/InGameOptionsScreenUI
+    - 66f25cbe-8687-4614-aee9-d6786bf55503:Scenes/RootScene
+    - f10b016e-1009-456f-8423-1983030cd810:UI/UIPageControllerBase
